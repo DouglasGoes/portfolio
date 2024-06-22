@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+    background: linear-gradient(to right, #3a3837, #3e30bb, #3a3837);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/*Container principal */
+
+.container {
+    margin-top: 10px auto;
+    max-width: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    padding: 20px;
+    border-width: 10px;
+    border-radius: 20px;  
+    background: linear-gradient(to right,#3a3837, #3e30bb, #3a3837 );
+}
+
+/* imagem de perfil */
+
+.conteudo img {
+    width: 150px;
+    height: auto;
+    border-radius: 100px;
+}
+
+/* texto no topo */
+
+.topo p {
+    color: yellow;
+}
+
+/* menu de links */
+
+.menu {
+    margin-top: 10px;
+    padding: 0;
+    list-style: none;
+}
+
+.menu li {
+    border-style: solid;
+    margin: 20px;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+/* icones do menu */
+
+.menu i {
+    margin-right: 10px;
+}
+
+/* menu SKILLS */
+
+.menu-checkbox {
+    display: none;
+}
+
+.menu-btn {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.menu-content {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.menu-checkbox:checked + .menu-btn + .menu-content {
+    display: block;
+}
+
+/* menu Sobre mim */
+
+.menu-chebox {
+    display: none;
+}
+
+.menu-btnum {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.menu-contentum {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.menu-checkbox:checked + .menu-btnum + .menu-contentum {
+    display: block;
+}
+
+/* Media queries para responsividade */
+
